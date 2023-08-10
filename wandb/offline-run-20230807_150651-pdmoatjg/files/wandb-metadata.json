@@ -1,0 +1,91 @@
+{
+    "os": "Linux-5.15.0-1026-aws-x86_64-with-glibc2.10",
+    "python": "3.8.17",
+    "heartbeatAt": "2023-08-07T15:06:51.325534",
+    "startedAt": "2023-08-07T15:06:51.207730",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config",
+        "configs/cifar10_k_ve.py",
+        "--workdir",
+        "cifar10-kve-score-loss",
+        "--mode",
+        "train"
+    ],
+    "state": "running",
+    "program": "-m jcm.main",
+    "git": {
+        "remote": "https://github.com/openai/consistency_models_cifar10.git",
+        "commit": "d086e77dfdc30b51671685f9eec90c90d4f4eaa6"
+    },
+    "email": null,
+    "root": "/home/ubuntu/consistency_models_cifar10",
+    "host": "ip-172-31-39-110",
+    "username": "ubuntu",
+    "executable": "/opt/conda/envs/cm_jax/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2961.8720000000003,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2694.976,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3000.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2699.987,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 248.0936737060547,
+        "used": 203.42852020263672
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 59.850589752197266
+    }
+}
